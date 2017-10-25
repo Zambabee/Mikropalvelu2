@@ -1,0 +1,30 @@
+{
+  "name": "PhoneLocation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "puhelinid": {
+      "type": "string",
+      "required": true
+    },
+    "beaconid": {
+      "type": "string",
+      "required": true
+    },
+    "x": {
+      "type": "number",
+      "required": true
+    },
+    "y": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

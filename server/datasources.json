@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "microservice2": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://mikro:salasana1@ds123695.mlab.com:23695/microservice2",
+    "database": "",
+    "password": "",
+    "name": "microservice2",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
